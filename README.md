@@ -16,7 +16,7 @@ You've heard about active workflows, can you use them to help make the finance t
 
 ### Challenge 1
 
-Finance wants to approve any manually approve any ml model training runs that will cost over $1k.
+Finance wants to manually approve any ml model training runs that will cost over $1k.
 
 Make a flow that gets an estimated cost from one of the tasks (can be a hard coded value for this project) it calls and pauses for approval. 
 If the request is approved, a task to train the model is called model training  (dummy stub for this exercise).  

@@ -15,7 +15,8 @@ class Input(BaseModel):
 
 class AuthorizationCode(BaseModel):
     code: str
-
+# validating not working as expected, need to make the validation happen in the UI
+# sneaky suspicion it deals with check_fields
     @field_validator('name', check_fields=False)
     @classmethod
     def name_must_not_contain_zeroes(cls, v: str):

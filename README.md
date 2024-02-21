@@ -1,4 +1,4 @@
-# Active workflows
+# Interactive workflows
 
 ## Background
 
